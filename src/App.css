@@ -1,13 +1,17 @@
 .App {
   padding: 30px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
 }
 
-.App > div {
-  margin-right: 50px;
-}
+/*.App > div {*/
+/*  margin-right: 50px;*/
+/*}*/
 
+ul {
+  list-style: none;
+  padding-left: 0;
+}
 
 .error {
   border: 1px solid red;
